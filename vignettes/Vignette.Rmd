@@ -20,12 +20,28 @@ library(MATH4753Package)
 
 # Introduction 
 
+
 ## Video
 
 <video width="560" height="315" controls>
   <source src="Rpackage.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
+
+
+## Direction
+```{r}
+getwd()
+```
+
+## Dataset file ddt
+```{r}
+ddt <- read.csv("DDT.csv")
+head(ddt)
+```
+
+## Link GITHUB
+https://github.com/Thanh-H-Nguyen/math4753testing2.git
 
 
 ## 1/The First Function

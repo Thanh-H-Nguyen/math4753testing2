@@ -10,6 +10,7 @@
 #' @export
 #' @importFrom grDevices rainbow
 #' @importFrom graphics barplot
+#' @importFrom stats pnorm
 #' @examples
 #'
 myf=function(iter = 1000, n = 10, p = 0.5){
