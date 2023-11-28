@@ -20,13 +20,23 @@ library(MATH4753Package)
 
 # Introduction 
 
-## The First Function
+## 1/ The First Function
 ```{r}
 set.seed(23);x = rnorm(30,mean=10,sd=12)
 MATH4753Package::myci(x)
 ```
 
-## The Second Function
+## 2/ The Second Function
 ```{r}
 MATH4753Package::myncurve(x=5,mu =10, sigma =4)
+```
+
+## 3/ The Third Function
+```{r}
+MATH4753Package::myf(iter=1000,n=10,p=0.5)
+```
+
+## 4/ The Fourth Function
+```{r}
+MATH4753Package::myboot2(x=rnorm(30))
 ```
