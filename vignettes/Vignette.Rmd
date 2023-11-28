@@ -1,5 +1,5 @@
 ---
-title: "What the package does?"
+title: "4 Funtions on Vignette"
 output: rmarkdown::html_vignette
 vignette: >
   %\VignetteIndexEntry{What the package does?}
@@ -19,6 +19,14 @@ library(MATH4753Package)
 ```
 
 # Introduction 
+
+## Video
+
+<video width="560" height="315" controls>
+  <source src="Rpackage.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 
 ## 1/The First Function
 ```{r}
@@ -40,3 +48,5 @@ MATH4753Package::myf(iter=1000,n=10,p=0.5)
 ```{r}
 MATH4753Package::myboot2(x=rnorm(30))
 ```
+
+
